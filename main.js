@@ -7,11 +7,11 @@ for (var i = 1; i <= 100; i++) {
     if (i % 15 == 0) {
         console.log("FizzBuzz");
     } */
-    if ((i % 3 == 0) && (i % 5 == 0)){
+    if ((i % 3 == 0) && (i % 5 == 0)){ // Se è multiplo di 3 e di 5
         console.log('FizzBuzz');
-    } else if (i % 3 == 0) {
+    } else if (i % 3 == 0) { // Se è multiplo di 3
         console.log('Fizz');
-    } else if (i % 5 === 0) {
+    } else if (i % 5 === 0) { // Se  è multiplo di 5
         console.log('Buzz');
     } else {
         console.log(i);
